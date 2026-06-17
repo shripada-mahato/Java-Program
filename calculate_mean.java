@@ -24,5 +24,9 @@ public class calculate_mean {
 
        float average = (num1 + num3 + num6) / 3;
        System.out.println("Mean:- " + average);
+
+       num.close();
+       num2.close();
+       num5.close();
     }
 }
